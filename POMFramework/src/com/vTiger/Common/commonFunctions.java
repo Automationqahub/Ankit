@@ -35,7 +35,7 @@ public class commonFunctions {
 		DateFormat format=new SimpleDateFormat("yyyyMMddhhmmss");
 		Date date=new Date();
 		String datestr=format.format(date);
-		String extentReport=System.getProperty("user.dir")+"\\src\\com\\vTiger\\Reports\\vtigerReport_"+datestr+".html";
+		String extentReport=System.getProperty("user.dir")+"\\src\\com\\vTiger\\Reports\\index.html";
 		reportpath=extentReport;
 		System.out.println(extentReport);
 		ExtentReports report=new ExtentReports(extentReport);
